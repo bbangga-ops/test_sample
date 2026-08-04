@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clock-container {
+    text-align: center;
+    background-color: #333842;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.date {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #abb2bf;
+}
+
+.time {
+    font-size: 5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
